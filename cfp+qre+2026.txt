@@ -1,7 +1,7 @@
-7th International Workshop on Quantum Resource Estimation (QRE 2024) for QEC Decoders
+8th International Workshop on Quantum Resource Estimation (QRE 2026) for QEC Decoders
 https://www.quantumresource.org/
 
-September 5, 2025 - Helsinki, Finland
+September 5, 2026 - Helsinki, Finland
 
 ==================--= Call for Participation =--==========================
 
@@ -41,10 +41,10 @@ Initial submission for QRE2024 will consist of an extended abstract, limited to 
 
 Upon acceptance, researchers are invited to submit full research papers to IEEE Transactions on Quantum Engineering.
 
-https://easychair.org/conferences/?conf=qre2025
+https://easychair.org/conferences/?conf=qre2026
 
 ===== Important Dates =====
 
-Extended Abstract Submission: 13 July 2025
-Notification Extended Abstract: 27 July 2025
-Workshop Date: 5 September 2025
+Extended Abstract Submission: 13 July 2026
+Notification Extended Abstract: 27 July 2026
+Workshop Date: 5 September 2026
