@@ -1,0 +1,50 @@
+7th International Workshop on Quantum Resource Estimation (QRE 2024) for QEC Decoders
+https://www.quantumresource.org/
+
+September 5, 2025 - Helsinki, Finland
+
+==================--= Call for Participation =--==========================
+
+The focus of this year's workshop are decoders for quantum error-correction. We hope to encourage participation from those working in quantum algorithm optimization, error-correction, architecture design, quantum compilation, classical control and resource benchmarking.
+
+The workshop is focused around developing techniques and tools that aid quantum software and algorithm design, informed by the realities of the hardware architectures. QRE shifts the perspective from complexity theoretic arguments to quantitative computer architecture arguments.
+
+The goal is to reduce the physical resource costs for interesting quantum algorithms as quickly as possible. Small-scale, cloud-based NISQ machines sparked the interest of exact, realistic and non asymptotic resource estimations. It is still uncertain if any valuable quantum algorithm is possible without incorporating costly error-correction protocols that make estimation, benchmarking and optimization far more complex. QRE is the forum to share research on the near term feasibility of interesting quantum algorithms.
+
+QRE will be preceded by the <a href="https://instituteq.fi/fqd/" target=_blank>Finnish Quantum Days</a>.
+
+==================--= Call for Papers =--==========================
+
+Quantum computation has a growing number of promising application areas such as quantum chemistry, quantum optimisation and finance. However, the first industrially relevant and scalable quantum computer seems to be at least a decade away. Therefore, one of the most pressing questions is "How many physical qubits and how much time is necessary to execute a quantum algorithm on a selected hardware platform where the algorithmic output is more important than the fact a quantum computer was used to calculate it?"
+
+By examining this question in depth we can motivate continued investment for quantum computing, further enable resource friendly quantum algorithm development and continue to push technological advances that will lead to a scalable quantum computing ecosystem.
+
+The workshop will bring together researchers to discuss new methods and directions needed to develop, as soon as possible, the tools to:
+* accurately analyze and benchmark complex quantum algorithms
+* adapt error-correction techniques
+* refine classical control and hardware microarchitectures
+* enable scientifically and commercially relevant quantum applications
+
+Research papers, tutorials, software and other demonstrations, and work-in-progress reports are within the scope of the workshop. Invited talks by leading international experts will complete the program. Contributions on all areas of quantum performance analytics are welcome:
+* High level quantum circuit analytics.
+* Fault-tolerant quantum circuit analytics.
+* Clifford+T optimisation strategies.
+* Resource efficient surface code implementations.
+* Surface code decoders.
+* Practical quantitative analysis of surface code alternatives.
+* Noisy Intermediate Scale Quantum (NISQ) evaluation.
+
+
+===== Paper submission =====
+
+Initial submission for QRE2024 will consist of an extended abstract, limited to 2+epsilon-pages (including figures and references, please don't go nuts with the epsilon!). Contributions must be written in English and report on original, unpublished work, not submitted for publication elsewhere.
+
+Upon acceptance, researchers are invited to submit full research papers to IEEE Transactions on Quantum Engineering.
+
+https://easychair.org/conferences/?conf=qre2025
+
+===== Important Dates =====
+
+Extended Abstract Submission: 13 July 2025
+Notification Extended Abstract: 27 July 2025
+Workshop Date: 5 September 2025

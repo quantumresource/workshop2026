@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Quantum Resource Estimation (QRE 2025) for QEC Decoders</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="img/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="img/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="img/favicon-128.png" sizes="128x128" />
+
+  <!-- <meta name="application-name" content="&nbsp;"/> -->
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: TheEvent
+    Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!-- <h1><a href="#main">C<span>o</span>nf</a></h1> -->
+        <!-- <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" title=""></a> -->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#cfp">Call for Papers</a></li>
+          <li><a href="#importantdates">Important Dates</a></li>
+          <li><a href="#venue">Venue and Local Information</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#register">Register</a></li>
+          <li><a href="#sponsors">Sponsors</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+    <div class="intro-container wow fadeIn">
+      <p class="mb-0 pb-0">The 7<sup>th</sup> International Workshop on</p>
+      <h1 class="mb-4 pb-0"><span>Quantum Resource Estimation (QRE2025)</span></br><span>for QEC Decoders</span></h1>
+      <p class="mb-0 pb-0">5 September - Helsinki, Finland</p>
+  	  <!-- <p class="mb-0 pb-0" style="color:orange">
+        <a href=https://link.webropolsurveys.com/EP/BE5F452DB33EF2C7 target="_blank">Registration is open!</a>
+	    </p> -->
+	  
+    <!-- <a href="https://link.webropolsurveys.com/EP/BE5F452DB33EF2C7" class="about-btn scrollto" target="_blank">Registration</a> -->
+	  <a href="#about" class="about-btn scrollto">About The Workshop</a>
+    <a href="#cfp" class="about-btn scrollto">Call for Papers</a>
+      <!-- <a href="#importantdates" class="about-btn scrollto">Important Dates</a> -->
+	  
+	  
+	  <p class="mb-0 pb-0">sponsored by</p>
+	  <p class="mb-0 pb-0" style="background-color:white; text-align:center">
+      <a href="https://www.instituteq.fi" target="_blank">
+				<img width=120px src="img/sponsors/instituteq.png" class="img-fluid" alt="">
+			</a>
+      <a href="https://www.d-fine.de/en" target="_blank">
+				<img width=120px src="img/sponsors/rigetti.png" class="img-fluid" alt="">
+			</a>
+			<a href="https://www.d-fine.de/en" target="_blank">
+				<img width=120px src="img/sponsors/dfinelogo.png" class="img-fluid" alt="">
+			</a>
+      <a href="https://meetiqm.com/" target="_blank">
+				<img width=120px src="img/sponsors/iqmlogo.png" class="img-fluid" alt="">
+			</a>
+      <a href="https://www.quantinuum.com/" target="_blank">
+				<img width=120px src="img/sponsors/quantinuum.png" class="img-fluid" alt="">
+			</a>
+      <a href="https://alice-bob.com/" target="_blank">
+				<img width=120px src="img/sponsors/aliceandbob.png" class="img-fluid" alt="">
+			</a>
+      <a href="https://unitary.foundation/" target="_blank">
+				<img width=120px src="img/sponsors/unitaryfoundation.png" class="img-fluid" alt="">
+			</a>
+      <a href="https://www.aalto.fi/en" target="_blank">
+				<img width=120px src="img/sponsors/aalto.png" class="img-fluid" alt="">
+			</a>
+      <a href="http://www.h-bar.com.au" target="_blank">
+				<img width=120px src="img/sponsors/hbarlogo.jpg" class="img-fluid" alt="">
+			</a>
+	  </p>
+      
+    </div>
+  </section>
+
+  <main id="main">
+
+    <!--==========================
+      About Section
+    ============================-->
+    <section id="about" class="section-with-bg wow fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>About QRE</h2>
+            <p>
+              This is the seventh international workshop on the emerging field of Quantum Resource Estimation (QRE), benchmarking and performance analytics.
+              The previous editions were 
+	      <a target="_blank" href="http://qre2024.quantumresource.org">QRE2024</a>
+	      <a target="_blank" href="http://qre2023.quantumresource.org">QRE2023</a>,
+              <a target="_blank" href="http://qre2022.quantumresource.org">QRE2022</a>, 
+              <a target="_blank" href="http://qre2021.quantumresource.org">QRE2021</a>, 
+              <a target="_blank" href="http://qre2020.quantumresource.org">QRE2020</a> and
+              <a target="_blank" href="http://qre2019.quantumresource.org">QRE2019</a>.
+            </p>
+            <p>
+              <b>The focus of this year's workshop are decoders for quantum error correcting codes</b>. We hope to encourage participation from those working in quantum algorithm optimization, 
+              error-correction, architecture design, quantum compilation, classical control and resource benchmarking.
+            </p>
+            <p>
+                The workshop is focused around developing techniques and tools that aid quantum software and algorithm 
+                design, informed by the realities of the hardware architectures. QRE shifts the perspective from complexity theoretic 
+                arguments to quantitative computer architecture arguments.
+            </p>                
+            <p>
+              The goal is to reduce the physical resource<sup>1</sup> costs for interesting quantum algorithms as quickly as possible.
+              Small-scale, cloud-based NISQ machines sparked the interest of exact, realistic and non asymptotic resource estimations.
+              It is still uncertain if any valuable quantum algorithm<sup>2</sup> is possible without incorporating costly error-correction 
+              protocols that make estimation, benchmarking and optimization far more complex. QRE is the forum to share research on the near term 
+              feasibility of interesting<sup>2</sup> quantum algorithms.
+            </p>
+
+            <p>
+              QRE will be preceded by the <a href="https://instituteq.fi/fqd/" target=_blank>Finnish Quantum Days</a>.
+            </p>
+          </div>
+
+          <div class="col-lg-6">
+            <h2>Organisers</h2>
+            <p><b>Alexandru Paler, Aalto University, Espoo, Finland</b></p>
+            <p><b>Simon Devitt, University of Technology, Sydney, Australia</b></p>
+            <p><b>Daniel Herr, d-fine, Zurich, Switzerland</b></p>
+            <img src="img/img1.jpg" alt="Braiding" class="img-fluid">
+          </div>
+		  
+          <!--<div class="col-lg-12">
+            <h3>Technical Program Committee</h3>
+            <ul>
+                <li>TBA</li>
+          </ul>-->
+            
+		  </div>
+		  
+          <div class="col-lg-12">
+              <p>
+                  <small>
+                  <sup>1</sup>Physical resources for executing a quantum algorithm can vary significantly. 
+                  Resource costs are influenced by the resultant quantum circuits through
+                  their structure and designed precision. Additional overheads are introduced by the physical 
+                  constraints of the quantum hardware. Quantum error correction is also resource hungry.
+                  Even the design and the performance of the classical control software that compiles 
+                  algorithms and controls the quantum computer has a non-negligible 
+                  impact on resources.
+                  </small>
+                </p>
+                <p>
+                  <small>
+                  <sup>2</sup>Algorithm that outperforms classical supercomputers either in a theoretical or monetary sense.
+                  </small>
+                </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==========================
+      Call for Papers Section
+    ============================-->
+    <section id="cfp" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Call for Papers</h2>
+          <p><a href="cfp+qre+2025.txt" target=_blank>Download TXT</a></p>
+          <p><a href="https://easychair.org/conferences/?conf=qre2025" target=_blank>Submission Site</a></p>
+        </div>
+        <div class="row">
+            <p>
+                Quantum computation has a growing number of promising application areas such as quantum 
+                chemistry, quantum optimisation and finance. However, the first industrially relevant 
+                and scalable quantum computer seems to be at least a decade away. Therefore, one of the 
+                most pressing questions is <b>"How many physical qubits and how much time is necessary to 
+                execute a quantum algorithm on a selected hardware platform where the algorithmic output is more important 
+                than the fact a quantum computer was used to calculate it?"</b>
+            </p>
+            <p> By examining this question in depth 
+                we can motivate continued investment for quantum computing, further enable resource friendly 
+                quantum algorithm development and continue to push technological advances that will 
+                lead to a scalable quantum computing ecosystem. 
+            </p> 
+            <p>
+                The workshop will bring together researchers to discuss new methods and directions 
+                needed to develop, as soon as possible, the tools to:
+                <ul>
+                  <li>accurately analyze and benchmark complex quantum algorithms</li>
+                  <li>adapt error-correction techniques</li>
+                  <li>refine classical control and hardware microarchitectures</li>
+                  <li>enable scientifically and commercially relavant quantum applications</li>
+                </ul>
+            </p>
+            <p>
+                Research papers, tutorials, software and other demonstrations, and work-in-progress reports are within 
+                the scope of the workshop. Invited talks by leading international experts will complete 
+                the program. Contributions on all areas of <b>quantum performance analytics</b> are welcome:
+                <ul>
+                    <li>High level quantum circuit analytics.</li>
+                    <li>Fault-tolerant quantum circuit analytics.</li>
+                    <li>Clifford+T optimisation strategies.</li>
+                    <li>Resource efficient surface code implementations.</li>
+                    <li>Surface code decoders.</li>
+                    <li>Practical quantitative analysis of surface code alternatives.</li>
+                    <li>Noisy Intermediate Scale Quantum (NISQ) evaluation.</li>
+              </ul>
+            </p>
+            <p>
+              Initial <a target="_blank" href="https://easychair.org/conferences/?conf=qre2025">submission for QRE2025</a> will consist of an extended abstract, limited to 2+epsilon-pages (including 
+              figures and references, please don't go nuts with the epsilon!). Contributions must be written in English and report on original, unpublished work, not submitted for publication elsewhere.
+			  </p>
+			  <!-- <p>
+				Upon acceptance, researchers are invited to submit full research papers to <b>Research Directions: Quantum Technologies</b> (Cambridge University Press).
+            </p> -->
+        </div>
+      </div>
+    </section>
+
+     <!--==========================
+      Important Dates Section
+    ============================-->
+    <section id="importantdates" class="section-with-bg wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Important Dates</h2>
+          <p><a href="https://easychair.org/conferences/?conf=qre2025" target=_blank>Submission Site</a></p>
+        </div>
+        <div class="row">
+            Extended Abstract Submission: <b>13th July 2025</b>
+        </div>
+        <div class="row">
+            Notification Extended Abstract: <b>27th July 2025</b>
+        </div>
+        <div class="row">
+            Workshop Date: <b>5th September 2025</b>
+        </div>
+      </div>
+    </section>
+
+     <!--==========================
+      Venue and Local Information Section
+    ============================-->
+    <section id="venue" class="section-with-bg wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Venue</h2>
+        </div>
+        <div class="row">
+          <p>QRE2025 will be held in Helsinki, the capital of Finland. The venue is Aalto University's building in Töölö.
+        </div>
+        <div class="row">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1180.0086646053267!2d24.921732404082352!3d60.17195743422286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920beeb249d5a5%3A0x815d7dbef087dd97!2zQWFsdG8gVW5pdmVyc2l0eSBUw7bDtmzDtg!5e0!3m2!1sen!2sfi!4v1746022424972!5m2!1sen!2sfi" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+        </div>
+
+        <div class="section-header">
+          <h2>Hotels</h2>
+        </div>
+        <div class="row">
+          <p>The following is a list of hotels located close to the venue:</p>
+          <ul>
+            <li><a href="https://www.radissonhotels.com/en-us/hotels/radisson-blu-helsinki-royal" target=_blank>Radisson Blu</a></li>
+            <li><a href="https://unihome.fi/kohteet/toolo-towers" target=_blank>Töölö Towers</a></li>
+          </ul>
+        </div>
+
+        <div class="section-header">
+          <h2>Local Information</h2>
+        </div>
+        <div class="row">
+          <p>The <strong>public transportation</strong> company of the Helsinki region is <a href="https://www.hsl.fi/en" target=_blank>HSL</a>.
+						There is a zone system in place, click <a href="https://moovitapp.com/index/public-transit-maps/?map=Finland_Helsinki_Zones_AB.pdf" target=_blank>here</a>
+						for an unofficial zone map. Tickets are valid for certain zones and for a period of time.
+						You can by paper tickets in the occasional ticket machine or from R-kiosks.
+						For daily use it is better to download the
+						<a href="https://www.hsl.fi/en/tickets-and-fares/hsl-app" target=_blank>HSL app</a>, which offers digital tickets and payment.
+					The city center of Helsinki and most hotels are in Zone A. The airport is in zone C.</p>
+					<p><strong>After your arrival to the airport</strong> follow the signs either to the taxi stand or the train.
+						The cheapest way to get to the center of Helsinki from the
+						airport (HEL) is to take a train, which takes you to the main train station in the center of Helsinki.
+						You can by a ticket for the ABC zones next to the train tracks. All trains go to Helsinki
+						(In Swedish, Helsingfors) main station.
+						Your ticket is valid for ~90 minutes which is enough to also use further trams/buses to get to your hotel.</p>
+					<p>Unfortunately, during the conference there will be <strong>significant disruption in the metro service</strong> due to construction work.
+						The metro does not operate between Kamppi and University of Helsinki (Helsingin Yliopisto) stations, and the Metro station
+						at the Central Railway Station (Rautatieasema) will be closed.
+						These stations are within walkable distances, and you can also take trams 9 or 9B.
+						For more information on this and other metro disruptions, click
+						<a href="https://www.hsl.fi/en/hsl/major-service-changes-in-2025/changes-to-metro-services" target=_blank>here</a>.</p>	
+					<p>If this is your first time in Helsinki, it is worth taking a look at some
+						<a href="https://www.visitfinland.com/en/places-to-go/helsinki-region/helsinki-city/" target=_blank>general and tourist information.</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!--==========================
+      Speakers Section
+    ============================-->
+    <section id="speakers" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Invited Speakers</h2>
+        </div>
+
+        <div class="row">
+			
+			    <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/francisco_garcia.png" alt="Speaker" class="img-fluid">
+              <div class="details">
+                <h3>Francisco Garcia-Herrero (Complutense Madrid)</h3>
+                <p>&nbsp;</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/joschka_roffe.jpg" alt="Speaker" class="img-fluid">
+              <div class="details">
+                <h3>Joschka Roffe (University of Edinburgh)</h3>
+                <p>&nbsp;</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/dan_browne.jpg" alt="Speaker" class="img-fluid">
+              <div class="details">
+                <h3>Dan Browne (University College London)</h3>
+                <p>&nbsp;</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/edwin_tham.jpg" alt="Speaker" class="img-fluid">
+              <div class="details">
+                <h3>Edwin Tham (IonQ)</h3>
+                <p>&nbsp;</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/laleh_beni.png" alt="Speaker" class="img-fluid">
+              <div class="details">
+                <h3>Laleh Beni (Google)</h3>
+                <p>&nbsp;</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/madelyn_cain.jpeg" alt="Speaker" class="img-fluid">
+              <div class="details">
+                <h3>Madelyn Cain (Harvard University)</h3>
+                <p>&nbsp;</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/joan_camps.jpg" alt="Speaker" class="img-fluid">
+              <div class="details">
+                <h3>Joan Camps (Riverlane)</h3>
+                <p>&nbsp;</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!--==========================
+      Schedule Section
+    ============================-->
+    <section id="schedule" class="section-with-bg">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h2>Event Schedule - all times are EET (Helsinki) </h2>
+        </div>
+
+        <div class="tab-content row justify-content-center">
+            <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+
+              <div class="row schedule-item">
+                <div class="col-md-3"><time>08:30</time></div>
+                <div class="col-md-9">
+                    <h4>Registration</h4>
+                    <p style="text-decoration:underline">Aalto Toolo lobby</p>
+                    <p></p>
+                </div>
+              </div>
+              
+              <div class="row schedule-item">
+                <div class="col-md-3">EET</div>
+                <div class="col-md-9" style="background-color: aquamarine">
+                    <h5>Session 1</h5>
+                </div>
+              </div>
+        
+              <div class="row schedule-item">
+                <div class="col-md-3"><time>09:15</time></div>
+                <div class="col-md-9">
+                    <h4>Localised Statistics Decoding</h4>
+                    <p style="text-decoration:underline">Joschka Roffe (University of Edinburgh)</p>
+                    <p></p>
+                </div>
+              </div>
+    
+              <div class="row schedule-item">
+                  <div class="col-md-3"><time>10:00</time></div>
+                  <div class="col-md-9">
+                      <h4>Scalable decoding protocols for fast transversal logic in the surface code</h4>
+                      <p style="text-decoration:underline">Joan Camps (Riverlane)</p>
+                      <p></p>
+                  </div>
+              </div>
+    
+              <div class="row schedule-item">
+                <div class="col-md-3">10:45</div>
+                <div class="col-md-9">
+                    <h4>Coffee Break</h4>
+                    <p></p>
+                </div>
+              </div>
+    
+              <div class="row schedule-item">
+                <div class="col-md-3">&nbsp;</div>
+                <div class="col-md-9" style="background-color: aquamarine">
+                    <h5>Session 2</h5>
+                </div>
+              </div>
+    
+              <div class="row schedule-item">
+                <div class="col-md-3"><time>11:15</time></div>
+                <div class="col-md-9">
+                    <h4>Quantum error correction and decoding with neutral atoms</h4>
+                    <p style="text-decoration:underline">Madelyn Cain (Harvard University)</p>
+                    <p></p>
+                </div>
+              </div>
+    
+              <div class="row schedule-item">
+                <div class="col-md-3"><time>12:00</time></div>
+                <div class="col-md-9">
+                    <h4> The AutDEC decoder - Improving Belief Propagation by ensembling and code symmetry</h4>
+                    <p style="text-decoration:underline">Dan Browne (University College London)</p>
+                    <p></p>
+                </div>
+              </div>
+    
+              <div class="row schedule-item">
+                <div class="col-md-3">12:45</div>
+                <div class="col-md-9">
+                    <h4>Lunch Break</h4>
+                    <p></p>
+                </div>
+              </div>
+    
+              <div class="row schedule-item">
+                <div class="col-md-3">&nbsp;</div>
+                <div class="col-md-9" style="background-color: aquamarine">
+                    <h5>Session 3</h5>
+                </div>
+              </div>
+            
+              <div class="row schedule-item">
+                <div class="col-md-3"><time>13:45</time></div>
+                <div class="col-md-9">
+                    <h4>Tesseract: A Search-Based Decoder for Quantum Error Correction</h4>
+                    <p style="text-decoration:underline">Laleh Beni (Google)</p>
+                    <p></p>
+                </div>
+              </div>
+
+              <div class="row schedule-item">
+                <div class="col-md-3"><time>14:30</time></div>
+                <div class="col-md-9">
+                    <h4>Fault-tolerance in the near- and medium-term</h4>
+                    <p style="text-decoration:underline">Edwin Tham (IonQ)</p>
+                    <p></p>
+                </div>
+              </div>
+
+              <div class="row schedule-item">
+                <div class="col-md-3">15:15</div>
+                <div class="col-md-9">
+                    <h4>Coffee Break</h4>
+                    <p></p>
+                </div>
+              </div>
+    
+              <div class="row schedule-item">
+                <div class="col-md-3">&nbsp;</div>
+                <div class="col-md-9" style="background-color: aquamarine">
+                    <h5>Session 4</h5>
+                </div>
+              </div>
+    
+              <div class="row schedule-item">
+                <div class="col-md-3"><time>15:45</time></div>
+                <div class="col-md-9">
+                    <h4>Low-Latency and Low-Overhead Hardware Resources for Accurate Quantum LDPC decoders</h4>
+                    <p style="text-decoration:underline">Francisco Garcia-Herrero (Complutense Madrid)</p>
+                    <p></p>
+                </div>
+              </div>
+    
+              <div class="row schedule-item">
+                <div class="col-md-3"><time>16:30</time></div>
+                <div class="col-md-9">
+                    <h4>...</h4>
+                    <p style="text-decoration:underline">TBA</p>
+                    <p></p>
+                </div>
+              </div>
+
+    
+    
+              <div class="row schedule-item">
+                <div class="col-md-3">17:15</div>
+                <div class="col-md-9">
+                    <h4>End</h4>
+                    <p></p>
+                </div>
+              </div>
+              
+                   
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+	
+	<!--==========================
+      Register Section
+    ============================-->
+    <section id="register" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Registration</h2>
+    
+          <p><a href="https://link.webropolsurveys.com/EP/BE5F452DB33EF2C7" target="_blank">Click here for registration.</a></p>
+
+    
+          <p>For any questions <a href="#contact">contact</a> the workshop organisers.</p>
+        </div>
+
+        <div class="tab-content row justify-content-center">
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--==========================
+      Sponsors Section
+    ============================-->
+    <section id="sponsors" class="wow fadeInUp">
+
+      <div class="container">
+        <div class="section-header">
+          <h2>Sponsors</h2>
+        </div>
+        <div class="row no-gutters sponsors-wrap clearfix">
+          <div class="col-sm-2 abc">
+            <a href="https://www.aalto.fi/en" target="_blank">
+              <img src="img/sponsors/instituteq.png" class="img-fluid" alt="">
+            </a>
+          </div> 
+          <div class="col-sm-2 abc">
+            <a href="https://www.d-fine.de/en" target="_blank">
+              <img width=120px src="img/sponsors/rigetti.png" class="img-fluid" alt="">
+            </a>
+          </div>
+		      <div class="col-sm-2 abc">
+            <a href="https://www.aalto.fi/en" target="_blank">
+              <img src="img/sponsors/dfinelogo.png" class="img-fluid" alt="">
+            </a>
+          </div>
+          <div class="col-sm-2 abc">
+            <a href="https://meetiqm.com/" target="_blank">
+              <img width=90px src="img/sponsors/iqmlogo.png" class="img-fluid" alt="">
+            </a>
+          </div>
+          <div class="col-sm-2 abc">
+            <a href="https://www.quantinuum.com/" target="_blank">
+              <img src="img/sponsors/quantinuum.png" class="img-fluid" alt="">
+            </a>
+          </div>
+          <div class="col-sm-2 abc">
+            <a href="https://alice-bob.com//" target="_blank">
+              <img src="img/sponsors/aliceandbob.png" class="img-fluid" alt="">
+            </a>
+          </div>
+          <div class="col-sm-2 abc">
+            <a href="https://unitary.foundation/" target="_blank">
+              <img src="img/sponsors/unitaryfoundation.png" class="img-fluid" alt="">
+            </a>
+          </div>
+          <div class="col-sm-2 abc">
+            <a href="http://www.h-bar.com.au" target="_blank">
+				      <img src="img/sponsors/hbarlogo.jpg" class="img-fluid" alt="">
+			      </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact" class="section-bg wow fadeInUp">
+
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Contact Us</h2>
+          <!-- <p>EMAIL EMAIL</p> -->
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:workshopquantumresource@gmail.com">workshopquantumresource@gmail.com</a></p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <img src="img/logo.png" alt="Workshop on Quantum Resource Estimation">
+           </div>
+
+          <!-- <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div> -->
+
+          <!-- <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div> -->
+
+          <!-- <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+          </div> -->
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>QRE2025</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
+        -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <!-- <script src="contactform/contactform.js"></script> -->
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
